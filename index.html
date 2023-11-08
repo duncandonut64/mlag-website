@@ -6,50 +6,59 @@
     <title>Michigan Leagues of Academic Games - MLAG</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+    <script src="js/navbar.js"></script>
+    <!-- <script src="js/footer.js"></script> -->
   </head>
   <body>
+    <div id="insertNavBar"></div>
     <div class="container-fluid">
       <div class="row">
-        <a href="index.html"><img src="img/logo.png" alt="Michigan Leagues of Academic Games Logo" id="mlag-logo"></a>
-      </div>
-      <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="index.html">Menu</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mlag-navbar" aria-controls="mlag-navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mlag-navbar">
-<!--             <a class="nav-link" href="#">About</a>-->
-            <a class="nav-link" href="tournaments.html">Tournaments</a>
-            <a class="nav-link" href="documents.html">Documents</a>
-            <a class="nav-link" href="games.html">Games</a>
-            <a class="nav-link" href="contact.html">Contact Us</a>
-            <a class="nav-link" href="https://www.facebook.com/AcademicgamesMI/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <!-- <a href="" target="_blank"><i class="fab fa-twitter-square"></i></a> -->
+        <div class="carousel-title">
+          <div id="mlag-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <img src="img/mlag_pic_1.png" class="carousel-image" alt="Academic Games team picture in front of Academic Games Leagues of America sign">
+              </div>
+              <div class="carousel-item text-center">
+                <img src="img/mlag_pic_2.png" class="carousel-image" alt="Academic Games team picture">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mlag-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mlag-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </nav>
+        </div>
       </div>
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-6">
           <h1>About Us</h1>
           <p>The Michigan League of Academic Games is an organization of educators, coaches, and other volunteers. We are dedicated to providing a positive learning environment that empowers students of diverse backgrounds to progress academically and socially through a  structured competitive tournament setting.</p>
           <p>Academic Games is a series of games designed to stimulate and test student knowledge in a variety of subjects. Students develop proficiency and confidence by competing in games of Math, English, Social Studies, and Logic. Through competition students are encouraged and motivated to sharpen their skills in order to gain  a competitive edge over their peers. Academic Games makes learning fun!</p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <h1>Schedule</h1>
-          <p>October 23 – multiple sites</p>
-          <p>November 20 – multiple sites</p>
-          <p>December 11 – multiple sites</p>
-          <p>January 22 – multiple sites</p>
-          <p>February 12 – multiple sites</p>
-          <p>March 3-5 – State Tournament at Ypsilanti Marriott at Eagle Crest for minor/elementary (grades 3 to 6)</p>
-          <p>March 10-12 – State Tournament at Ypsilanti Marriott at Eagle Crest for middle/high school (grades 7 to 12)</p>
-          <p>April 21-26 – National Tournament in Knoxville, TN</p>
+          <p>September 23 – <a href="tournaments.html">regional sites</a></p>
+          <p>October 21 – <a href="tournaments.html">regional sites</a></p>
+          <p>November 17 – <a href="tournaments.html">regional sites</a></p>
+          <p>December 2 – Reading Game Extravaganza, <a href="tournaments.html">multiple sites</a></p>
+          <p>December 9 – <a href="tournaments.html">regional sites</a></p>
+          <p>January 20 – <a href="tournaments.html">regional sites</a></p>
+          <p>February 3 – <a href="tournaments.html">regional sites</a></p>
+          <p>March 7-9 – State Tournament at the Ann Arbor Marriott Ypsilanti at Eagle Crest for minor/elementary (grades 6 and below)</p>
+          <p>March 14-16 – State Tournament at the Ann Arbor Marriott Ypsilanti at Eagle Crest for middle/high school (grades 7 to 12)</p>
+          <p>April 19-22 – National Tournament at the Hyatt Regency in Atlanta, GA</p>
         </div>
       </div>
     </div>
+    <!-- <div id="insertFooter"></div> -->
   </body>
 </html>

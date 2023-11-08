@@ -1,11 +1,22 @@
-#mlag-logo {
-	width: 100%;
-	padding: 12px;
+#mlag-logo a {
+	display: flex;
+	justify-content: center;
 }
 
-/*.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,7,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}*/
+#mlag-logo img {
+	max-width: 100%;
+	padding: 10px 20px
+}
+
+@media (min-width: 992px) {
+	#mlag-logo img {
+	  max-width: 50%;
+	}
+  }
+
+.past-champions iframe {
+	height: 600px;
+}
 
 #driveDocs {
 	width: 100%;
@@ -13,34 +24,20 @@
 }
 
 .game {
-	background-color:#cfc096	;
+	background-color:#cfc096;
 	border-radius: 15px;
-	border: 5px solid #e4e1df;
-}
-
-.game h3 {
-	font-size:  1rem;
-}
-
-.game h2 {
-	font-size: 1.5rem;
-}
-
-.nav-link, nav .navbar-brand {
-	font-size: 1.5rem;
+	padding: 10px;
+	margin: 15px;
+	flex-shrink: 1 !important;
 }
 
 nav {
-	/*background-color: #00274c;*/
-	background-color: #ABD59B;
+	background-color: #00274c;
 }
 
-nav a, nav div a.nav-link {
-	/*color: #ffcb05;*/
-}
-
-.container-fluid h1 {
-	font-size: 2rem;
+nav a, nav div a.nav-link, .nav-link, nav .navbar-brand {
+	color: #ffcb05;
+	margin-right: 15px;
 }
 
 .fa-facebook-square {
@@ -49,4 +46,9 @@ nav a, nav div a.nav-link {
 
 body {
 	background-color: #e4e1df;
+}
+
+.carousel-image {
+	max-height: 650px;
+	max-width: 90vw;
 }
