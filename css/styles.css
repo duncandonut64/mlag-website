@@ -1,3 +1,12 @@
+nav {
+	background-color: #00274c;
+}
+
+nav a, nav div a.nav-link, .nav-link, nav .navbar-brand {
+	color: #ffcb05;
+	margin-right: 15px;
+}
+
 #mlag-logo a {
 	display: flex;
 	justify-content: center;
@@ -8,11 +17,14 @@
 	padding: 10px 20px
 }
 
-@media (min-width: 992px) {
-	#mlag-logo img {
-	  max-width: 50%;
-	}
-  }
+.fa-facebook-square {
+	font-size: 2rem;
+}
+
+.carousel-image {
+	max-height: 650px;
+	max-width: 90vw;
+}
 
 .past-champions iframe {
 	height: 600px;
@@ -31,28 +43,13 @@
 	flex-shrink: 1 !important;
 }
 
-nav {
-	background-color: #00274c;
-}
-
-nav a, nav div a.nav-link, .nav-link, nav .navbar-brand {
-	color: #ffcb05;
-	margin-right: 15px;
-}
-
-.fa-facebook-square {
-	font-size: 2rem;
-}
-
-body {
-	background-color: #e4e1df;
-}
-
-.carousel-image {
-	max-height: 650px;
-	max-width: 90vw;
-}
-
 #mlag-steering-committee {
 	text-align: center;
 }
+
+
+@media (min-width: 992px) {
+	#mlag-logo img {
+	  max-width: 50%;
+	}
+  }

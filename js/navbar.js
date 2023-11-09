@@ -18,13 +18,16 @@ $(document).ready(function() {
               <a class="nav-link" href="tournament_results.html">Super Tournament Results</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="games.html">Games</a>
+              <a class="nav-link" href="games.html">Games</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="documents.html">Documents</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">MLAG Steering Committee</a>
+              <a class="nav-link" href="mlag-committee.html">MLAG Steering Committee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
         </div>
