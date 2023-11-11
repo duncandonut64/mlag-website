@@ -3,7 +3,7 @@ $(document).ready(function() {
     <div id="mlag-logo">
       <a href="index.html"><img src="img/logo.png" alt="Michigan Leagues of Academic Games Logo" ></a>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-xl navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mlag-navbar" aria-controls="mlag-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,6 +25,9 @@ $(document).ready(function() {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="mlag-committee.html">MLAG Steering Committee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://www.agloa.org/">AGLOA</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
