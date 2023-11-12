@@ -4,13 +4,13 @@ $(document).ready(function() {
       <a href="index.html"><img src="img/logo.png" alt="Michigan Leagues of Academic Games Logo" ></a>
     </div>
     <nav class="navbar navbar-expand-xl navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Home</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/mlag_logo.png" alt="Michigan Leagues of Academic Games Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mlag-navbar" aria-controls="mlag-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mlag-navbar">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav justify-content-between w-100">
             <li class="nav-item">
               <a class="nav-link" href="tournaments.html">2023-2024 Tournaments</a>
             </li>

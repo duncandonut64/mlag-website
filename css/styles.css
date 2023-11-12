@@ -1,10 +1,15 @@
 nav {
-	background-color: #00274c;
+	background-color: #00447c;
 }
 
 nav a, nav div a.nav-link, .nav-link, nav .navbar-brand {
-	color: #ffcb05;
-	margin-right: 20px;
+	color: gold;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+nav a img {
+	height: 3rem;
 }
 
 #mlag-logo a {
