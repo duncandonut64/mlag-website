@@ -15,6 +15,9 @@ $(document).ready(function() {
               <a class="nav-link" href="tournaments.html">2023-2024 Tournaments</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="saturday_tournament_results.html">Saturday Tournament Results</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="tournament_results.html">Super Tournament Results</a>
             </li>
             <li class="nav-item">
