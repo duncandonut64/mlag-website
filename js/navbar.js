@@ -5,7 +5,6 @@ $(document).ready(function() {
     </div>
     <nav class="navbar navbar-expand-xl navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/mlag_logo.png" alt="Michigan Leagues of Academic Games Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mlag-navbar" aria-controls="mlag-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +23,10 @@ $(document).ready(function() {
               <a class="nav-link" href="games.html">Games</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="documents.html">Documents</a>
+              <a class="nav-link" href="tournament_rules.html">Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tournament_documents.html">Super Tournament Documents</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="mlag-committee.html">MLAG Steering Committee</a>
