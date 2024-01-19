@@ -49,6 +49,10 @@ nav a img {
 	text-align: center;
 }
 
+.mlag-alert {
+	background-color: #FF5251;
+	color: white;
+}
 
 @media (min-width: 992px) {
 	#mlag-logo img {
