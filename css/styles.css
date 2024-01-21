@@ -54,6 +54,10 @@ nav a img {
 	color: white;
 }
 
+.mlag-alert a {
+	color: yellow;
+}
+
 @media (min-width: 992px) {
 	#mlag-logo img {
 	  max-width: 50%;
