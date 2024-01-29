@@ -52,6 +52,7 @@ nav a img {
 .mlag-alert {
 	background-color: #FF5251;
 	color: white;
+	text-align: center;
 }
 
 .mlag-alert a {
