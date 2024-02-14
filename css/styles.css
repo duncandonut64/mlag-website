@@ -59,6 +59,10 @@ nav a img {
 	color: yellow;
 }
 
+.news-article {
+	padding: 0 3em 3em 0;
+}
+
 @media (min-width: 992px) {
 	#mlag-logo img {
 	  max-width: 50%;
