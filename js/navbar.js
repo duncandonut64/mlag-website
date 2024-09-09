@@ -22,6 +22,9 @@ $(document).ready(function() {
             <li class="nav-item">
               <a class="nav-link" href="tournament_rules.html">Rules</a>
             </li>
+            <li>
+              <a class="nav-link" href="meeting_notes.html">Opening Meeting Notes</a>
+            </li>
 <!--            <li class="nav-item">
               <a class="nav-link" href="tournament_documents.html">Super Tournament Documents</a>
             </li> -->
