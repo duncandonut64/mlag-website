@@ -25,9 +25,9 @@ $(document).ready(function() {
            <li>
               <a class="nav-link" href="meeting_notes.html">Opening Meeting Notes</a>
             </li>
-<!--             <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="tournament_documents.html">Super Tournament Documents</a>
-            </li> -->
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="mlag-committee.html">MLAG Steering Committee</a>
             </li>
