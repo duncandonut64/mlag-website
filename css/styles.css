@@ -64,13 +64,15 @@ nav a img {
 	color: yellow;
 }
 
-.news-article {
-	padding: 0 3em 3em 0;
-}
-
 .mlag-social-media {
 	font-size: 2em;
 }
+
+.mlag-calendar, .mlag-calendar iframe {
+	width: 100%;
+	min-height: 400px;
+}
+
 
 @media (min-width: 992px) {
 	#mlag-logo img {
