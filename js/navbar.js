@@ -11,6 +11,9 @@ $(document).ready(function() {
         <div class="collapse navbar-collapse" id="mlag-navbar">
           <ul class="navbar-nav justify-content-between w-100">
             <li class="nav-item">
+              <a class="nav-link" href="saturday_tournament_results.html">Saturday Tournament Results</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="tournament_results.html">Super Tournament Results</a>
             </li>
             <li class="nav-item">
@@ -19,7 +22,7 @@ $(document).ready(function() {
             <li class="nav-item">
               <a class="nav-link" href="tournament_rules.html">Rules</a>
             </li>
-           <li>
+            <li>
               <a class="nav-link" href="meeting_notes.html">Opening Meeting Notes</a>
             </li>
             <li class="nav-item">
